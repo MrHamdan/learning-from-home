@@ -14,7 +14,7 @@ const Header = () => {
                         <NavLink to="/home">Home</NavLink>
                         <NavLink to="/services">Service's</NavLink>
                         <NavLink to="/about">About</NavLink>
-                        <NavLink to="/faq">FAQ</NavLink>
+                        <NavLink to="/teachers">Teacher's</NavLink>
                     </Nav>
                     <Form className="d-flex">
                         <FormControl

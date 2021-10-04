@@ -20,16 +20,21 @@
 }
 .fa-facebook-square{
     font-size: 30px;
+    color: rgb(23 165 251);
+    fontweight: bold;
 }
 .fa-twitter-square{
     font-size: 30px;
     margin-left: 20px;
+    color: rgb(23 165 251);
 }
 .fa-youtube{
     font-size: 30px;
     margin-left: 20px;
+    color: rgb(255 0 0);
 }
 .fa-google-plus{
     font-size: 30px;
     margin-left: 20px;
+    color: rgb(255 0 0);
 }
