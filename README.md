@@ -1,13 +1,16 @@
-# Learning From Home
+# Learn From Home
+
+Please Visit This Site [Learn From Home](https://zealous-liskov-62f5b0.netlify.app/).
+
+## About the project
+
+•	This is a simple react project.
 
 
-Please visit the link to explore the site. [Learning From Home](https://zealous-liskov-62f5b0.netlify.app/).
+•	Functional component is used to make this project.
 
 
-•	This project is building by React, React Router, React Bootstrap, React Rating.
+•	It's similar to make a club or e-commerce type site.
 
 
-•	Functional Component is using to build this project.
-
-
-•	This project is Online Learning platform where you can buy course and learn anything you want.
+• This project is Online Learning platform where you can buy course and learn anything you want.
