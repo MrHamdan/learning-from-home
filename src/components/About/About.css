@@ -1,0 +1,18 @@
+.about-container{
+    display: flex;
+}
+.img-width{
+    margin-top: 10px;
+    width: 600px;
+    margin-left: 30px;
+    filter: drop-shadow(0 1px 2px #575757);
+}
+.text-gap{
+    margin-left: 40px;
+}
+.bg-color{
+    border-radius: 20px;
+    padding: 20px;
+    background-color:rgba(198,216,221,.9);
+    filter: drop-shadow(0 1px 2px #575757);
+}
