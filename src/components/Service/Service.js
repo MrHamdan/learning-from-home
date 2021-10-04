@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
-import Rating from 'react-rating';
+import { Card, CardGroup, Button } from 'react-bootstrap';
 import './Service.css'
 
 const Service = (props) => {
@@ -16,14 +15,10 @@ const Service = (props) => {
                         <Card.Text>
                             {description}
                         </Card.Text>
+                        <small className="fs-5"><i className="fas fa-users"></i> Rating: {rating}</small><span className="mx-2 fs-5"><br /><i className="fas fa-money-bill-alt"></i> Price: ${price}</span>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="fs-5"><i className="fas fa-money-bill-alt"></i> Price: ${price}</small><span className="mx-2 fs-5"><i className="fas fa-users"></i> Rating:</span>
-                        <Rating
-                            initialRating={rating}
-                            emptySymbol="far fa-star"
-                            fullSymbol="fas fa-star"
-                            readonly></Rating>
+                    <Card.Footer className="text-center">
+                        <Button variant="outline-info">Buy Now</Button>
                     </Card.Footer>
                 </Card>
             </CardGroup>
