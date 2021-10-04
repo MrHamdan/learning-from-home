@@ -14,11 +14,13 @@ const Teachers = () => {
     return (
         <div className="custom-bg">
             <div className="text-center pt-4">
+                {/* Our Teachers Part */}
                 <h1 className="text-white text-design">Teacher's Information</h1>
                 <h4 className="text-white text-design">Here as you can see our highly qualified teachers accross the world. They worked really hard for this company and for your childern.</h4>
             </div>
             <div>
                 <div className="row row-cols-1 row-cols-md-4 g-5 p-5">
+                    {/* Show Teachers */}
                     {
                         teachers.map(teacher => <Teacher
                             key={teacher.key}

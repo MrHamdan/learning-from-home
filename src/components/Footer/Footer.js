@@ -7,9 +7,11 @@ const Footer = () => {
         <div className="custom-color">
             <div className="footer pt-3">
                 <div>
+                    {/* Footer Logo */}
                     <img className="footer-logo" src={logo} alt="" />
                 </div>
                 <div>
+                    {/* Footer Motto and Social Part */}
                     <p className="text-size">Never Stop Learning</p><span className="text-center"><p><i className="fab fa-facebook-square"></i><i className="fab fa-twitter-square"></i><i className="fab fa-youtube"></i><i className="fab fa-google-plus"></i></p></span>
                 </div>
             </div>

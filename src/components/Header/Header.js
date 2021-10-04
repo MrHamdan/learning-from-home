@@ -10,6 +10,7 @@ const Header = () => {
             <img className="logo" src={logo} alt="" /><span className="span-text">Learn Anything From Home</span>
             <Navbar className="navbar" bg="dark" variant="dark">
                 <Container>
+                    {/* Navigation Links */}
                     <Nav className="me-auto custom-link">
                         <NavLink to="/home">Home</NavLink>
                         <NavLink to="/services">Service's</NavLink>

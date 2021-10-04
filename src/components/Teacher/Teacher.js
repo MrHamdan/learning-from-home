@@ -5,6 +5,7 @@ import './Teacher.css';
 const Teacher = (props) => {
     const { name, img, subject, description } = props.teacher;
     return (
+        // Our Teacher Details
         <div className="course-container">
             <CardGroup className="card-group">
                 <Card className="card">
