@@ -34,7 +34,7 @@ const Home = () => {
                             service={service}
                         ></Service>)
                     }
-                    <NavLink className="button-design" to="/services"><Button className="shadow-lg" variant="warning">See More</Button></NavLink>
+                    <NavLink className="button-design" to="/courses"><Button className="shadow-lg" variant="warning">See More</Button></NavLink>
                 </div>
             </div>
         </div>
