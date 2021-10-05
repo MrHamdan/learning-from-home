@@ -13,7 +13,7 @@ const Header = () => {
                     {/* Navigation Links */}
                     <Nav className="me-auto custom-link">
                         <NavLink to="/home"><button type="button" className="btn btn-outline-info">Home</button></NavLink>
-                        <NavLink to="/services"><button type="button" className="btn btn-outline-info">Courses</button></NavLink>
+                        <NavLink to="/courses"><button type="button" className="btn btn-outline-info">Courses</button></NavLink>
                         <NavLink to="/about"><button type="button" className="btn btn-outline-info">About</button></NavLink>
                         <NavLink to="/becomeaninstructor"><button type="button" className="btn btn-outline-info">Become An Instructor</button></NavLink>
                         <NavLink to="/teachers"><button type="button" className="btn btn-outline-info">Teachers</button></NavLink>
