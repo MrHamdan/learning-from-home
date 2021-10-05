@@ -12,12 +12,13 @@ const Header = () => {
                 <Container>
                     {/* Navigation Links */}
                     <Nav className="me-auto custom-link">
-                        <NavLink to="/home">Home</NavLink>
-                        <NavLink to="/services">Courses</NavLink>
-                        <NavLink to="/about">About</NavLink>
-                        <NavLink to="/becomeaninstructor">Become An Instructor</NavLink>
-                        <NavLink to="/teachers">Teachers</NavLink>
-                        <Button variant="info">Login</Button>
+                        <NavLink to="/home"><button type="button" className="btn btn-outline-info">Home</button></NavLink>
+                        <NavLink to="/services"><button type="button" className="btn btn-outline-info">Courses</button></NavLink>
+                        <NavLink to="/about"><button type="button" className="btn btn-outline-info">About</button></NavLink>
+                        <NavLink to="/becomeaninstructor"><button type="button" className="btn btn-outline-info">Become An Instructor</button></NavLink>
+                        <NavLink to="/teachers"><button type="button" className="btn btn-outline-info">Teachers</button></NavLink>
+                        <button type="button" className="btn btn-outline-info">Login</button>
+                        <button type="button" className="btn btn-outline-warning">Sign Up</button>
                     </Nav>
                     <Form className="d-flex">
                         <FormControl
