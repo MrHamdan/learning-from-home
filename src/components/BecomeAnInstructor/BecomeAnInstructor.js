@@ -82,7 +82,7 @@ const BecomeAnInstructor = () => {
             </CardGroup>
             {/* Become An Instructor Part */}
 
-            <div className="instructor">
+            <div className="instructor custom-bg">
                 <h2 className="text-design text-warning">Become an instructor today</h2>
                 <h3 className="text-design py-3">Join one of the world’s largest online learning marketplaces.</h3>
                 <Button variant="warning py-2">Join Now</Button>
