@@ -7,15 +7,17 @@ import './Header.css'
 const Header = () => {
     return (
         <div className="header">
-            <img className="logo" src={logo} alt="" /><span className="span-text">Learn Anything From Home</span>
+            <img className="logo" src={logo} alt="" /><span className="span-text">Learn <span className="text-warning">Anything</span> From <span className="text-warning">Home</span></span>
             <Navbar className="navbar" bg="dark" variant="dark">
                 <Container>
                     {/* Navigation Links */}
                     <Nav className="me-auto custom-link">
                         <NavLink to="/home">Home</NavLink>
-                        <NavLink to="/services">Service's</NavLink>
+                        <NavLink to="/services">Courses</NavLink>
                         <NavLink to="/about">About</NavLink>
-                        <NavLink to="/teachers">Teacher's</NavLink>
+                        <NavLink to="/becomeaninstructor">Become An Instructor</NavLink>
+                        <NavLink to="/teachers">Teachers</NavLink>
+                        <Button variant="info">Login</Button>
                     </Nav>
                     <Form className="d-flex">
                         <FormControl

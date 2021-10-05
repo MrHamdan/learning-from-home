@@ -3,6 +3,25 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.text-design{
+.text-design-1{
     filter: drop-shadow(0 1px 2px #575757);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.text-design-2{
+    filter: drop-shadow(0 1px 2px #575757);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-img{
+    background-image: url("../../images/header.jpg");
+    background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+}
+.button-design{
+    margin-left: 860px;
 }

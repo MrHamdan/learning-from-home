@@ -8,6 +8,7 @@ import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
 import About from './components/About/About';
 import Teachers from './components/Teachers/Teachers';
+import BecomeAnInstructor from './components/BecomeAnInstructor/BecomeAnInstructor';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/becomeaninstructor">
+            <BecomeAnInstructor></BecomeAnInstructor>
           </Route>
           <Route path="/teachers">
             <Teachers></Teachers>

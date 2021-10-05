@@ -24,7 +24,7 @@ const Service = (props) => {
                             readonly></Rating></small><span className="mx-2 fs-5"><br /><i className="fas fa-money-bill-alt"></i> Price: ${price}</span>
                     </Card.Body>
                     <Card.Footer className="text-center">
-                        <Button variant="outline-info">Buy Now</Button>
+                        <Button className="text-white" variant="info">Enroll Now</Button>
                     </Card.Footer>
                 </Card>
             </CardGroup>
