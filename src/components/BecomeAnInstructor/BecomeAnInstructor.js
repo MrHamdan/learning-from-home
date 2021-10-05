@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, Card, CardGroup } from 'react-bootstrap';
+import { Button, Card, CardGroup } from 'react-bootstrap';
 import './BecomeAnInstructor.css'
 
 const BecomeAnInstructor = () => {
